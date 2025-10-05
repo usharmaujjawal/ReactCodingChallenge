@@ -48,3 +48,49 @@ ul {
   border-radius: 10px;
   font-weight: 800;
 }
+
+/* For DateCounter */
+
+.date-counter {
+  /* border: 1px solid black; */
+  padding: 4rem;
+
+  /* 
+    position: absolute - If no width or height is set, 
+    the element will shrink-wrap to its content 
+    — meaning its size will match the content.
+  */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.steps,
+.count {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps {
+  margin-bottom: 1rem;
+}
+
+.date-message {
+  /* border: 1px solid black; */
+  background-color: greenyellow;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 1rem;
+}
