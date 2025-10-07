@@ -93,6 +93,11 @@ button {
   border-radius: 5px;
   padding: 10px;
   margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 /* FlashCard */
@@ -116,4 +121,11 @@ button {
 
 .selected {
   background-color: red;
+}
+
+/* Date-CounterII */
+.count-input {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
 }
