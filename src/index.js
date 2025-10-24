@@ -4,14 +4,17 @@ import "./index.css";
 // import ProfileCard from "./ProfileCard";
 // import DateCounter from "./DateCounter";
 // import FlashCard from "./FlashCard";
-import DateCounterII from "./DateCounterII";
-
+// import DateCounterII from "./DateCounterII";
+// import Accordion from "./Accordion";
+import AccordionII from "./AccordionII";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <ProfileCard /> */}
     {/* <DateCounter /> */}
     {/* <FlashCard /> */}
-    <DateCounterII />
+    {/* <DateCounterII /> */}
+    {/* <Accordion /> */}
+    <AccordionII />
   </React.StrictMode>
 );

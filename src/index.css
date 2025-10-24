@@ -129,3 +129,45 @@ button {
   padding: 10px;
   border-radius: 10px;
 }
+
+/* Accordion */
+.item {
+  /* padding: 2rem; */
+  cursor: pointer;
+  padding: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 1px solid red; */
+  padding: 10rem;
+}
+
+.title {
+  /* border: 1px solid blue; */
+  /* width: 700px; */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.hidden {
+  display: none;
+}
+
+.text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.highlighted {
+  border-top: 2px solid red;
+  font-weight: bolder;
+}
