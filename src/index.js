@@ -6,7 +6,10 @@ import "./index.css";
 // import FlashCard from "./FlashCard";
 // import DateCounterII from "./DateCounterII";
 // import Accordion from "./Accordion";
-import AccordionII from "./AccordionII";
+// import AccordionII from "./AccordionII";
+// import TipCalc from "./TipCalc";
+import TextExpanderApp from "./TextExpanderApp.js";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -15,6 +18,8 @@ root.render(
     {/* <FlashCard /> */}
     {/* <DateCounterII /> */}
     {/* <Accordion /> */}
-    <AccordionII />
+    {/* <AccordionII /> */}
+    {/* <TipCalc /> */}
+    <TextExpanderApp />
   </React.StrictMode>
 );

@@ -73,6 +73,7 @@ button {
   padding: 10px;
   border-radius: 5px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .steps,
@@ -170,4 +171,33 @@ button {
 .highlighted {
   border-top: 2px solid red;
   font-weight: bolder;
+}
+
+/* tip Calculator */
+.tip {
+  /* border: 1px solid red; */
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+div > h2 {
+  margin-top: 10px;
+}
+
+/* Text Expander */
+.box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #f7f7f7;
 }
